@@ -19,12 +19,13 @@ html{
   --grey-dark: #4D5E77;
   --grey-blue: #A1B2Cd;
   --grey-medium: #D3D9E2;
-  --grey:ligh: #E5EAF1;
+  --grey-light: #E5EAF1;
 
   font-size: 62.5%;
 }
 
 body{
+  display: flex;
   height: 100vh;
   background: var(--background);  
 }
@@ -62,7 +63,7 @@ input, button, .button{
 }
 
 button, .button{
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   line-height: 0; /* espaçamento entre as linhas do texto */
 
